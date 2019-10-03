@@ -90,3 +90,29 @@ header {
 	width: 900px;
 	justify-content: space-evenly;
 }
+h1 {
+	font-size: 60px;
+	display:flex;
+	justify-content: center;
+	border: 1px dashed red;
+}
+h4 {
+	font-size: 20px;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 25%;
+	margin: 80px;
+	border: 2px solid grey;
+
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	border: 1px solid black;
+}
