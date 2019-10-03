@@ -72,7 +72,7 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
+	width: 100%;
 	/* border: 2px solid blue; */
 }
 
@@ -80,7 +80,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 80%;
+	width: 100%;
 	padding: 20px;
 	/* border: 2px dashed green; */
 }
@@ -179,4 +179,12 @@ footer {
 	justify-content: center;
 	width: 60%;
 	/* border: 1px solid red; */
+}
+
+/* Services Page Styling */
+
+.services-header-img {
+	margin: 20px;
+	width: 50%;
+	border: 1px solid red;
 }
