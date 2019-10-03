@@ -188,3 +188,9 @@ footer {
 	width: 50%;
 	border: 1px solid red;
 }
+
+.learn-button {
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+}
