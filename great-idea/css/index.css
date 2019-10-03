@@ -73,6 +73,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
+	border: 2px solid blue;
 }
 
 .navigation {
@@ -96,9 +97,7 @@ h1 {
 	justify-content: center;
 	border: 1px dashed red;
 }
-h4 {
-	font-size: 20px;
-}
+
 
 .cta-text {
 	display: flex;
@@ -110,9 +109,22 @@ h4 {
 
 }
 
+.cta {
+	display:flex;
+}
+
 button {
 	display: flex;
 	justify-content: center;
 	width: 20%;
 	border: 1px solid black;
+}
+
+.code-circle {
+	display: flex;
+	border: 2px solid teal;
+}
+
+h4 {
+	font-size: 20px;
 }
