@@ -73,7 +73,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 }
 
 .navigation {
@@ -82,20 +82,21 @@ header {
 	align-items: center;
 	width: 80%;
 	padding: 20px;
-	border: 2px dashed green;
+	/* border: 2px dashed green; */
 }
 
 .anchor {
 	display: flex;
-	border: 1px solid red;
-	width: 900px;
 	justify-content: space-evenly;
+	width: 900px;
+	color: grey;
+	/* border: 1px solid red; */
 }
 h1 {
 	font-size: 60px;
 	display:flex;
 	justify-content: center;
-	border: 1px dashed red;
+	/* border: 1px dashed red; */
 }
 
 
@@ -105,25 +106,25 @@ h1 {
 	align-content: center;
 	width: 25%;
 	margin: 80px;
-	border: 2px solid grey;
+	/* border: 2px solid grey; */
 
 }
 
 .cta {
 	display:flex;
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 }
 
 button {
 	display: flex;
 	justify-content: center;
 	width: 20%;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .code-circle {
 	display: flex;
-	border: 2px solid teal;
+	/* border: 2px solid teal; */
 }
 
 h4 {
@@ -134,14 +135,14 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 }
 
 .top-content {
 	display: flex;
 	padding: 40px;
 	width: 100%;
-	border: 1px solid teal;
+	/* border: 1px solid teal; */
 }
 
 .bottom-content {
@@ -154,5 +155,5 @@ h4 {
 	flex-direction: column;
 	align-content: space-between;
 	width: 48%;
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
 }
