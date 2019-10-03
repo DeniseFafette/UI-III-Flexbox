@@ -194,3 +194,9 @@ footer {
 	height: 40px;
 	border-radius: 5px;
 }
+
+.services-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px;
+}
