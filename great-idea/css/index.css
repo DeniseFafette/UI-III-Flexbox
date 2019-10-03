@@ -111,6 +111,7 @@ h1 {
 
 .cta {
 	display:flex;
+	border: 1px solid grey;
 }
 
 button {
@@ -127,4 +128,31 @@ button {
 
 h4 {
 	font-size: 20px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	border: 1px solid purple;
+}
+
+.top-content {
+	display: flex;
+	padding: 40px;
+	width: 100%;
+	border: 1px solid teal;
+}
+
+.bottom-content {
+	display: flex;
+	padding: 40px;
+}
+
+.text-content {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	width: 48%;
+	border: 1px solid yellow;
 }
