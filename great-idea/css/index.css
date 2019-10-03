@@ -167,6 +167,11 @@ h4 {
 	/* border: 1px solid yellow; */
 }
 
+.contact {
+	width: 60%;
+	padding: 40px;
+}
+
 footer {
 	display:flex;
 	justify-content: center;
