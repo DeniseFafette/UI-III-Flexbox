@@ -231,28 +231,23 @@ footer {
 
 .service-facts {
 	width: 100%;
+	margin: 2% 0 0 0;
 	height: 400px;
-	padding: 15px;
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	justify-content: space-around;
 	border: 1px solid green;
 }
 
 .facts-text {
-	width: 30%;
-	margin: 0% 0% 0% 5%;
+	width: 40%;
+	border: 1px solid red;
 }
 
 .services-list {
-	margin: 0 0 0 5%;
+	margin: 20px 0 0 0;
 }
 
 .services-info-img {
-	width: 40%;
+	width: 130%;
 	border: 2px solid red;
-	display: flex;
-	
-
 }
