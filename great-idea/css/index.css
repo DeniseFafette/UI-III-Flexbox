@@ -79,7 +79,7 @@ header {
 
 .navigation {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
 	width: 100%;
 	padding: 20px;
@@ -140,7 +140,7 @@ h4 {
 	flex-direction: column;
 	width: 60%;
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom: 4px solid black;
 	/* border: 1px solid purple; */
 }
 
@@ -178,7 +178,8 @@ h4 {
 footer {
 	display:flex;
 	justify-content: center;
-	width: 60%;
+	width: 100%;
+	padding: 50px;
 	/* border: 1px solid red; */
 }
 
@@ -187,12 +188,14 @@ footer {
 .services-header-img {
 	margin: 20px;
 	width: 100%;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .services-cta {
-	width: 50%;
-	padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	/* border: 1px solid purple; */
 }
 
 .services-ctatext {
@@ -214,7 +217,7 @@ footer {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	width: 100%;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 
 }
 
@@ -227,22 +230,29 @@ footer {
 }
 
 .service-facts {
-	width: 50%;
+	width: 100%;
 	height: 400px;
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 1px solid green;
 }
 
 .facts-text {
-	width: 50%;
+	width: 30%;
+	margin: 0% 0% 0% 5%;
 }
 
 .services-list {
-	padding: 20px;
+	margin: 0 0 0 5%;
 }
 
 .services-info-img {
-	width: 50%;
+	width: 40%;
+	border: 2px solid red;
+	display: flex;
+	
+
 }
