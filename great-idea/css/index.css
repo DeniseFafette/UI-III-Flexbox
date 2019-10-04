@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 body {
 	margin: 0% 20%;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 }
 
 header {
@@ -235,12 +235,12 @@ footer {
 	height: 400px;
 	display: flex;
 	justify-content: space-around;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .facts-text {
-	width: 40%;
-	border: 1px solid red;
+	width: 35%;
+	/* border: 1px solid red; */
 }
 
 .services-list {
@@ -248,6 +248,10 @@ footer {
 }
 
 .services-info-img {
-	width: 130%;
-	border: 2px solid red;
+	width: 90%;
+	/* border: 2px solid red; */
+}
+
+.facts-img {
+	width: 40%;
 }
