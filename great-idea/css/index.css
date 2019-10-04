@@ -222,3 +222,24 @@ footer {
 	width: 440px;
 	padding: 15px;
 }
+
+.service-facts {
+	width: 50%;
+	height: 400px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.facts-text {
+	width: 50%;
+}
+
+.services-list {
+	padding: 20px;
+}
+
+.services-info-img {
+	width: 50%;
+}
