@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	margin: 60px;
+	margin: 0% 20%;
+	border: 1px solid blue;
 }
 
 header {
@@ -111,7 +112,7 @@ h1 {
 
 .cta {
 	display:flex;
-	width: 60%;
+	width: 100%;
 	/* border: 1px solid grey; */
 }
 
@@ -186,7 +187,7 @@ footer {
 .services-header-img {
 	margin: 20px;
 	width: 100%;
-	/* border: 1px solid red; */
+	border: 1px solid red;
 }
 
 .services-cta {
@@ -210,8 +211,10 @@ footer {
 	border-bottom: 1px solid black;
 	padding: 40px;
 	display: flex;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 50%;
+	width: 100%;
+	border: 1px solid green;
 
 }
 
@@ -219,7 +222,7 @@ footer {
 	background-color: gainsboro;
 	border: 1px solid black;
 	margin: 20px;
-	width: 440px;
+	width: 40%;
 	padding: 15px;
 }
 
