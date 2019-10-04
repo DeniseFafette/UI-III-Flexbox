@@ -185,8 +185,17 @@ footer {
 
 .services-header-img {
 	margin: 20px;
+	width: 100%;
+	/* border: 1px solid red; */
+}
+
+.services-cta {
 	width: 50%;
-	border: 1px solid red;
+	padding: 10px;
+}
+
+.services-ctatext {
+	padding: 15px;
 }
 
 .learn-button {
