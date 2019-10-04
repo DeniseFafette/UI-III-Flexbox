@@ -199,4 +199,15 @@ footer {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+
+}
+
+.services-text {
+	background-color: gainsboro;
+	border: 1px solid black;
+	margin: 20px;
+	width: 400px;
 }
